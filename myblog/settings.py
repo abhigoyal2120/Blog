@@ -26,7 +26,7 @@ SECRET_KEY = '1o#*$vq3l6dq4m!z5$s=n@m6okht8o06#_2!nqzru9!#t$sdof'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1','http://obscure-fjord-57872.herokuapp.com','5432']
 #Activate Django-Heroku.
 # django_heroku.settings(locals())
 
