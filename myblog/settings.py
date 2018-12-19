@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1o#*$vq3l6dq4m!z5$s=n@m6okht8o06#_2!nqzru9!#t$sdof'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0','localhost','obscure-fjord-57872.herokuapp.com']
+ALLOWED_HOSTS = ['obscure-fjord-57872.herokuapp.com']
 #Activate Django-Heroku.
 # django_heroku.settings(locals())
 
